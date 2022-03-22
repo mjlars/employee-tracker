@@ -20,7 +20,8 @@ const Menu = () => {
                 'Done'
             ]
         }
-    ).then((answer) => {
+    )
+    .then((answer) => {
             switch (answer.menu) {
                 case 'View All Departments':
                     return viewAllDepartments();
